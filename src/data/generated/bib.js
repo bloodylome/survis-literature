@@ -113,7 +113,7 @@
         "author": " Sharma, Saurabh and Kumar, Atul and Chandra, Joydeep",
         "booktitle": "proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024",
         "doi": "https://doi.org/10.1007/978-3-031-72117-5_13",
-        "image": "data/papers_img/paper1.png",
+        "image": "paper1.png",
         "month": "October",
         "page": "133 -- 142",
         "publisher": "Springer Nature Switzerland",
