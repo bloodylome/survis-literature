@@ -90,7 +90,7 @@
         "keywords": "Transformers, Medical image analysis, Vision transformers, Deep neural networks",
         "pages": "103000",
         "title": "Advances in medical image analysis with vision Transformers: A comprehensive review",
-        "type": "article",
+        "type": "article @article{AZAD2024103000,",
         "url": "https://www.sciencedirect.com/science/article/pii/S1361841523002608",
         "volume": "91",
         "year": "2024"
@@ -118,7 +118,7 @@
         "page": "133 -- 142",
         "publisher": "Springer Nature Switzerland",
         "title": " { Confidence Matters: Enhancing Medical Image Classification Through Uncertainty-Driven Contrastive Self-Distillation } ",
-        "type": "InProceedings",
+        "type": "InProceedings Knowledge Distillation Methods, Supervised Learning, Image Classification",
         "volume": "LNCS 15010",
         "year": "2024"
     },
@@ -127,7 +127,7 @@
         "booktitle": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
         "doi": "https://doi.org/10.48550/arXiv.2107.03225",
         "title": "Categorical Relation-Preserving Contrastive Knowledge Distillation for Medical Image Classification",
-        "type": "inproceedings",
+        "type": "inproceedings @inproceedings{Xing2021CategoricalRC, Knowledge Distillation Methods, Supervised Learning, Image Classification",
         "url": "https://api.semanticscholar.org/CorpusID:235755366",
         "year": "2021"
     }

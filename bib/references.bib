@@ -1,4 +1,5 @@
 
+
 @InProceedings{Sha_Confidence_MICCAI2024,
         author = { Sharma, Saurabh and Kumar, Atul and Chandra, Joydeep},
         title = { { Confidence Matters: Enhancing Medical Image Classification Through Uncertainty-Driven Contrastive Self-Distillation } },
@@ -81,6 +82,94 @@ pages={448--457},
 abstract={In recent years, transformer-based image classification methods have demonstrated remarkable effectiveness across various image classification tasks. However, their application to medical images presents challenges, especially in the feature extraction capability of the network. Additionally, these models often struggle with the efficient propagation of essential information throughout the network, hindering their performance in medical imaging tasks. To overcome these challenges, we introduce a novel framework comprising Local-Global Transformer module and Spatial Attention Fusion module, collectively referred to as Med-Former. These modules are specifically designed to enhance the feature extraction capability at both local and global levels and improve the propagation of vital information within the network. To evaluate the efficacy of our proposed Med-Former framework, we conducted experiments on three publicly available medical image datasets: NIH Chest X-ray14, DermaMNIST, and BloodMNIST. Our results demonstrate that Med-Former outperforms state-of-the-art approaches underscoring its superior generalization capability and effectiveness in medical image classification.},
 isbn={978-3-031-72120-5}
 }
+
+
+
+@InProceedings{Sha_Confidence_MICCAI2024,
+        author = { Sharma, Saurabh and Kumar, Atul and Chandra, Joydeep},
+        title = { { Confidence Matters: Enhancing Medical Image Classification Through Uncertainty-Driven Contrastive Self-Distillation } },
+        booktitle = {proceedings of Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+        year = {2024},
+		doi={https://doi.org/10.1007/978-3-031-72117-5_13},
+        publisher = {Springer Nature Switzerland},
+        volume = {LNCS 15010},
+        month = {October},
+        page = {133 -- 142},
+		image = {paper1.png},
+		type = {Knowledge Distillation Methods, Supervised Learning, Image Classification}
+}
+
+@inproceedings{Xing2021CategoricalRC,
+  title={Categorical Relation-Preserving Contrastive Knowledge Distillation for Medical Image Classification},
+  author={Xiaohan Xing and Yuenan Hou and Han Li and Yixuan Yuan and Hongsheng Li and Max Q.‐H. Meng},
+  booktitle={International Conference on Medical Image Computing and Computer-Assisted Intervention},
+  year={2021},
+  doi={https://doi.org/10.48550/arXiv.2107.03225}
+  url={https://api.semanticscholar.org/CorpusID:235755366},
+  type = {Knowledge Distillation Methods, Supervised Learning, Image Classification}
+}
+
+@article{AZAD2024103000,
+title = {Advances in medical image analysis with vision Transformers: A comprehensive review},
+journal = {Medical Image Analysis},
+volume = {91},
+pages = {103000},
+year = {2024},
+issn = {1361-8415},
+doi = {https://doi.org/10.1016/j.media.2023.103000},
+url = {https://www.sciencedirect.com/science/article/pii/S1361841523002608},
+author = {Reza Azad and Amirhossein Kazerouni and Moein Heidari and Ehsan Khodapanah Aghdam and Amirali Molaei and Yiwei Jia and Abin Jose and Rijo Roy and Dorit Merhof},
+keywords = {Transformers, Medical image analysis, Vision transformers, Deep neural networks},
+abstract = {The remarkable performance of the Transformer architecture in natural language processing has recently also triggered broad interest in Computer Vision. Among other merits, Transformers are witnessed as capable of learning long-range dependencies and spatial correlations, which is a clear advantage over convolutional neural networks (CNNs), which have been the de facto standard in Computer Vision problems so far. Thus, Transformers have become an integral part of modern medical image analysis. In this review, we provide an encyclopedic review of the applications of Transformers in medical imaging. Specifically, we present a systematic and thorough review of relevant recent Transformer literature for different medical image analysis tasks, including classification, segmentation, detection, registration, synthesis, and clinical report generation. For each of these applications, we investigate the novelty, strengths and weaknesses of the different proposed strategies and develop taxonomies highlighting key properties and contributions. Further, if applicable, we outline current benchmarks on different datasets. Finally, we summarize key challenges and discuss different future research directions. In addition, we have provided cited papers with their corresponding implementations in https://github.com/mindflow-institue/Awesome-Transformer.}
+}
+
+@InProceedings{10.1007/978-3-031-72117-5_52,
+author={Chen, Aobo
+and Li, Yangyi
+and Qian, Wei
+and Morse, Kathryn
+and Miao, Chenglin
+and Huai, Mengdi},
+editor={Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.},
+title={Modeling and Understanding Uncertainty in Medical Image Classification},
+booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+year={2024},
+doi={https://doi.org/10.1007/978-3-031-72117-5_52}
+publisher={Springer Nature Switzerland},
+address={Cham},
+pages={557--567},
+abstract={Medical image classification is an important task in many different medical applications. The past years have witnessed the success of Deep Neural Networks (DNNs) in medical image classification. However, traditional softmax outputs produced by DNNs fail to estimate uncertainty in medical image predictions. Contrasting with conventional uncertainty estimation approaches, conformal prediction (CP) stands out as a model-agnostic and distribution-free methodology that constructs statistically rigorous uncertainty sets for model predictions. However, existing exact full conformal methods involve retraining the underlying DNN model for each test instance with each possible label, demanding substantial computational resources. Additionally, existing works fail to uncover the root causes of medical prediction uncertainty, making it difficult for doctors to interpret the estimated uncertainties associated with medical diagnoses. To address these challenges, in this paper, we first propose an efficient approximate full CP method, which involves tracking the gradient updates contributed by these samples during training. Subsequently, we design an interpretation method that uses these updates to identify the top-k most influential training samples that significantly impact models' uncertainties. Extensive experiments on real-world medical image datasets are conducted to verify the effectiveness of the proposed methods.},
+isbn={978-3-031-72117-5}
+}
+
+@InProceedings{10.1007/978-3-031-72120-5_42,
+author={Chowdary, G. Jignesh
+and Yin, Zhaozheng},
+editor={Linguraru, Marius George
+and Dou, Qi
+and Feragen, Aasa
+and Giannarou, Stamatia
+and Glocker, Ben
+and Lekadir, Karim
+and Schnabel, Julia A.},
+title={Med-Former: A Transformer Based Architecture for Medical Image Classification},
+booktitle={Medical Image Computing and Computer Assisted Intervention -- MICCAI 2024},
+year={2024},
+doi={https://doi.org/10.1007/978-3-031-72120-5_42}
+Keywords: {Medical Image Classification · Transformers · Computer Aided Diagnosis · Local-global Feature Extraction · Spatial Attention Fusion},
+publisher={Springer Nature Switzerland},
+address={Cham},
+pages={448--457},
+abstract={In recent years, transformer-based image classification methods have demonstrated remarkable effectiveness across various image classification tasks. However, their application to medical images presents challenges, especially in the feature extraction capability of the network. Additionally, these models often struggle with the efficient propagation of essential information throughout the network, hindering their performance in medical imaging tasks. To overcome these challenges, we introduce a novel framework comprising Local-Global Transformer module and Spatial Attention Fusion module, collectively referred to as Med-Former. These modules are specifically designed to enhance the feature extraction capability at both local and global levels and improve the propagation of vital information within the network. To evaluate the efficacy of our proposed Med-Former framework, we conducted experiments on three publicly available medical image datasets: NIH Chest X-ray14, DermaMNIST, and BloodMNIST. Our results demonstrate that Med-Former outperforms state-of-the-art approaches underscoring its superior generalization capability and effectiveness in medical image classification.},
+isbn={978-3-031-72120-5}
+}
+
 
 @INPROCEEDINGS{10651469,
   author={Huang, Xinlei and Jiang, Ning and Tang, Jialiang},
